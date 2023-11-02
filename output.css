@@ -70,6 +70,18 @@ header a{
 }
 
 @media only screen and (max-width: 769px){
+    header a{
+        font-size: 18px;
+        white-space: no-wrap;
+        color: black;
+        display: flex;
+        text-decoration: none;
+        padding-bottom: 10px;
+        padding-left: 30px;
+    }
+    header img{
+        width: 140px;
+    }
     .name .readings{
         display: flex;
         flex-direction: column;
@@ -82,8 +94,5 @@ header a{
         height: 180px;
         width: 320px;
     }
-    .header a{
-        font-size: 12px;
-        color: black;
-    }
+    
 }
