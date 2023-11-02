@@ -73,5 +73,13 @@ header a{
     .name .readings{
         display: flex;
         flex-direction: column;
+        
+    }
+    .name{
+        margin-right: 20px;
+    }
+    .name .readings .read{
+        height: 180px;
+        width: 320px;
     }
 }
