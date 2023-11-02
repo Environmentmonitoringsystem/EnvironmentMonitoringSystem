@@ -82,4 +82,8 @@ header a{
         height: 180px;
         width: 320px;
     }
+    .header a{
+        font-size: 12px;
+        color: black;
+    }
 }
