@@ -66,8 +66,21 @@ header a{
 
 .name .readings{
     display: flex;
+    flex-direction: column;
+}
+
+.name .readings .mq135{
+    display: flex;
     flex-direction: row;
 }
+
+.name .readings .mq7{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 @media only screen and (max-width: 769px){
     header a{
